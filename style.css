@@ -1,0 +1,487 @@
+/*------------
+  Google-Font-Link
+-------------*/
+/* 
+font-family: 'Allerta Stencil', sans-serif;
+font-family: 'Lilita One', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Work Sans', sans-serif; */
+
+  @import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Lilita+One&family=Roboto&family=Work+Sans:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth !important;
+}
+
+:root{
+  --Fiver:#00AC2C;
+  --text:#19376D;
+  --red:#D21312;
+  --black:#111;
+  --gray:#666;
+  --white:#fff;
+}
+
+h1,h2,h3,h4,h5,h6{
+ font-family: 'Roboto', sans-serif;
+ color: var(--black);
+}
+
+p{
+ color: var(--text);
+  font-family: 'Roboto', sans-serif;
+}
+
+span{
+  color: var(--Fiver);
+}
+
+.right-icon{
+  padding-right: 5px;
+  color: var(--text);
+}
+.left-icon{
+  padding-left: 5px;
+}
+
+.span-verson-2{
+ color: var(--red) !important;
+}
+
+a{
+  text-decoration: none;
+  color: var(--Fiver);
+}
+
+h2{
+  font-size: 40px;
+  font-weight: bolder;
+}
+/*--------------
+ header-Open
+-------------*/
+header{
+     width: 100%;
+     /* height: 100vh; */
+     background-image: linear-gradient(rgba(4, 9, 30, 0.507),rgba( 4,9,30,0.7)), url(img/bannar.png);
+     background-position: center;
+     background-size: cover;
+     background-attachment:fixed ;
+}
+
+.navbar{
+
+}
+.icon-bars{
+  color: var(--white);
+}
+
+.container-fluid{
+     margin: 0 10%;
+    padding: 5px 0;
+}
+
+.logo{
+    font-size: 25px;
+    font-family: 'Allerta Stencil', sans-serif;
+    color: var(--white); 
+    transition: 1s;
+}
+
+.logo:hover{
+  color: var(--Fiver);
+}
+
+.nav-link{
+    font-size: 20px;
+    margin: 10px 15px; 
+    text-align:center;
+    color: var(--white);
+    transition:0.5s;
+    cursor: pointer;
+}
+
+
+.nav-link:hover{
+   transform: scale(1.1);
+   color: var(--Fiver);
+}
+
+.btn{
+  padding: 10px 15px;
+  border: none;
+  background-color: #00AC2C;
+  color: var(--white);
+  transition: 1s;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.btn:hover{
+  background-color: var(--red);
+  color: var(--white);
+  border: none !important;
+}
+
+/* banner */
+
+.banner-container{
+  height:100vh;
+}
+
+.banner-contents{
+  width: 700px;
+}
+.banner-contents .big-text{
+   font-weight: bolder;
+   font-size: 40px;
+   font-family: 'Allerta Stencil', sans-serif;
+}
+.big-hed-text{
+    color: var(--white);
+}
+
+.banner-contents p{
+   color:rgba(255, 255, 255, 0.884);
+   font-size: 20px;
+
+}
+
+.btn-mim{
+ margin: 0 10px;
+ border: none!important;
+}
+
+.icon-left{
+   padding-right: 10px;
+   color:var(--white);
+}
+
+.bannar-link{
+  margin-top: 30px;
+}
+
+.span-text{
+  font-weight: bolder;
+  color: var(--white);
+}
+
+
+/* Scrol-Effct */
+.scrol-effct{
+  margin-top: 150px;
+}
+.scroll-btn{
+  width:8px;
+  border: 2px solid #fff;
+  padding: 5px 8px 10px;
+  border-radius: 30px;
+  margin:0 auto;
+}
+
+.scroll-bar span{
+  border: 1px solid #fff;
+  font-size: 8px;
+  border-radius: 30px;
+}
+
+.scroll-bar{
+ animation: mover 1s infinite alternate;
+}
+
+@keyframes mover{
+  0%{transform: translateY(0);
+    opacity:0 ;
+  }
+  100%{transform: translateY(10px);
+  }          
+}
+/*--------------
+ header-Closs
+-------------*/
+
+/*--------------
+  main-Open
+-------------*/
+
+main{
+  background-color:#F7F7F7;
+  margin-top: 100px;
+}
+
+/*----------------
+  About-Opne
+----------------*/
+  #About{
+
+  }
+
+  .col-1{
+
+  }
+   
+  
+  .col-1 h2{
+     font-weight: bolder;
+     font-size: 40px;
+  }
+  
+  .col-1 p{
+      text-align: justify;
+  }
+
+  .ma-btn{
+    margin-right: 20px;
+  }
+
+  /* --- */
+
+
+  .about-photo{
+   width: 100%;
+   display: flex;
+   justify-content: right;
+  }
+
+  .tem-about-pic{
+    text-align: center;
+  }
+  
+  .about-photo img{
+    width: 350px;
+  } 
+  .about-photo p{
+    width: 350px;
+    margin-top: 10px;
+  } 
+ 
+  summary{
+    text-align: justify !important;
+  }
+ 
+/*----------------
+  About-Closs
+----------------*/
+
+/*----------------
+  Services-Open
+----------------*/
+  .services{
+    text-align: center;
+    margin: 100px 0;
+  }
+
+  .row{
+   margin-top: 50px;
+  }
+
+ 
+  .icon{
+    font-size: 35px;
+    color: var(--Fiver);
+    padding-bottom: 25px;
+  }
+
+  .card-css{
+     transition: 0.5s;
+  }
+  .card-css:hover{
+    transform: scale(1.1);
+ }
+
+ .card-body{
+   padding: 20px;
+ }
+
+  .ser-btn{
+    background-color: var(--text);
+    padding: 5px 15px;
+  }
+
+/*----------------
+  Services-Closs
+----------------*/
+
+/*----------------
+  Together-Open
+----------------*/
+  #Together{
+    width: 100%;
+    height: 45vh;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.507),rgba( 4,9,30,0.7)), url(img/Toggether.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .together{
+    width: 100%;
+    height: 45%;
+    background: transparent;
+    }
+
+    .together-col{
+      text-align: center;
+    }
+    .together-col h2{
+      color: var(--white);
+    }
+    .together-col p{
+      color: var(--white);
+    }
+
+    .together-col a{
+      color: var(--white) !important;
+    }
+/*----------------
+  Together-Closs
+----------------*/
+
+/*----------------
+  Contact-Opne
+----------------*/
+.contact{
+  margin-top: 50px;
+}
+.contact h2{
+  text-align: center;
+  font-family: 'Work Sans', sans-serif !important;
+  font-weight: bolder !important;
+  color: var(--text) !important;
+}
+.contact-p{
+  text-align: center;
+}
+
+.contact-link{
+  margin: 20px 0;
+}
+
+
+.btn-reset{
+  background-color: var(--red) !important;
+  transition: 1s !important;
+}
+
+.btn-reset:hover{
+  background-color: var(--text) !important;
+}
+
+.conta-about{
+  margin: 30px 0;
+}
+
+
+/* connected */
+.CONNECTED{
+  width: 100%;
+   height: auto;
+  text-align: center;
+  margin-top: 20px; 
+  background-color: #101010;
+  height: auto;
+  padding: 30px 0;
+}
+.hed-text{
+  font-weight: bolder;
+   color: var(--white); 
+   padding-bottom: 10px;
+}
+
+.row-col{
+   margin: 0px 150px;
+} 
+.contact-div{
+  text-align: center;
+  margin-top: 10px; 
+}
+
+.contact-div p{
+  color: #fff;
+}
+
+.icon-cont{
+  font-size: 40px;
+  transition: 1s !important;
+  background-color: var(--white);
+  color: var(--black);
+  padding: 25px 27px;
+  border-radius: 100%;
+}
+
+.icon-cont:hover{
+  background-color: #00AC2C;
+  color: #fff;
+}
+
+
+/*------------------
+   Footer-opne
+------------------*/
+   .footer-col{
+    width: 100%;
+    height: auto;
+    padding: 20px 100px;
+    background-color: #000000;
+   }
+
+   .footer-hed-text{
+      font-size: 35px;
+      color: #fff;
+      font-family: 'Allerta Stencil', sans-serif;
+   }
+
+   .footer-icon p{
+    color: var(--white);
+   }
+
+   .footer-icon i{
+      color: var(--white) !important;
+      transition: 1s !important;
+      font-size: 25px;
+      margin: 0 5px;
+   }
+   .footer-icon i:hover{
+    color: var(--Fiver) !important;
+ }
+
+ /* col-lg-8 */
+
+ .div-footer1 a{
+    display: block;
+    margin: 10px 0;
+    font-size: 17px;
+    color: var(--white);
+    transition: 0.5s;
+ }
+
+ .div-footer1 a:hover{
+   color: #00AC2C;
+}
+
+.div-footer2{
+  text-align: center !important;
+  margin-top: 50px;
+}
+.div-footer2 p{
+  color: var(--white);
+  font-size: 20px;
+}
+   
+.lest-footer p{
+    color: #666;
+}
+
+/*------------------
+   Footer-Closs
+------------------*/

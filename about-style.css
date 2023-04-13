@@ -1,0 +1,280 @@
+/*------------
+  Google-Font-Link
+-------------*/
+/* 
+font-family: 'Allerta Stencil', sans-serif;
+font-family: 'Lilita One', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Work Sans', sans-serif; */
+
+  @import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Lilita+One&family=Roboto&family=Work+Sans:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth !important;
+}
+
+:root{
+  --Fiver:#00AC2C;
+  --text:#19376D;
+  --red:#D21312;
+  --black:#111;
+  --gray:#666;
+  --white:#fff;
+}
+
+h1,h2,h3,h4,h5,h6{
+ font-family: 'Roboto', sans-serif;
+ color: var(--black);
+}
+
+p{
+ color: var(--text);
+  font-family: 'Roboto', sans-serif;
+}
+
+span{
+  color: var(--Fiver);
+}
+
+.right-icon{
+  padding-right: 5px;
+  color: var(--text);
+}
+.left-icon{
+  padding-left: 5px;
+}
+
+.span-verson-2{
+ color: var(--red) !important;
+}
+
+a{
+  text-decoration: none;
+  color: var(--Fiver);
+}
+
+h2{
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+/*--About-More--*/
+   .about-text2{
+    font-size: 25px;
+    font-weight: bolder;
+    padding: 10px 25px;
+    background-color: #000000;
+    color: var(--white);
+   }
+/*--------------
+ header-Open
+-------------*/
+header{
+     width: 100%;
+     /* height: 100vh; */
+    background-color: #000000;
+     background-position: center;
+     background-size: cover;
+}
+
+.navbar{
+
+}
+.icon-bars{
+  color: var(--white);
+}
+
+.container-fluid{
+     margin: 0 10%;
+    padding: 5px 0;
+}
+
+.logo{
+    font-size: 25px;
+    font-family: 'Allerta Stencil', sans-serif;
+    color: var(--white); 
+    transition: 1s;
+}
+
+.logo:hover{
+  color: var(--Fiver);
+}
+
+.nav-link{
+    font-size: 20px;
+    margin: 10px 15px; 
+    text-align:center;
+    color: var(--white);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
+.nav-link:hover{
+   transform: scale(1.1);
+   color: var(--Fiver);
+}
+
+.btn{
+  padding: 10px 15px;
+  border: none;
+  background-color: #00AC2C;
+  color: var(--white);
+  transition: 1s;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.btn:hover{
+  background-color: var(--red);
+  color: var(--white);
+  border: none !important;
+}
+
+/*---------------
+    Main-Open
+----------------*/
+/*--banner--*/
+  #Banner{
+    width: 100%;
+    height: 65vh;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.507),rgba( 4,9,30,0.7)), url(img/Abuot-img.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment:fixed ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .banner{
+    text-align: center;
+  }
+  .banner h1{
+    color: var(--white);
+    font-family: 'Allerta Stencil', sans-serif;
+    font-size: 65px;
+  }
+
+  .follow-icon:hover{
+      color: var(--Fiver);
+      transition: 0.5s;
+  }
+
+  /* --Old-days-- */
+
+  #GOOD-OLD-DAYS{
+    margin-top: 50px;
+  }
+ 
+  .col-lg-4{
+   
+    
+  }
+ 
+  .old-sponsor-text{
+    width: 100%;
+    height: 40vh;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+   
+  .old-col p{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bolder;
+    color: var(--white) !important;
+  }
+  .btn-old{
+    padding: 10px 100px !important;
+    background-color: var(--red) !important;
+    border-radius: 0 !important;
+    transition: 0.5s !important;
+  }
+
+  .btn-old:hover{
+    background-color: #19376D !important;
+    color: #fff;
+  }
+
+  .col-pp{
+    text-align: justify;
+    font-size: 18px;
+  }
+
+  #GOAL{
+    margin-bottom: 50px;
+  }
+  /*---------------
+    Main-Closs
+----------------*/
+
+/*------------------
+   Footer-opne
+------------------*/
+   .footer-col{
+    width: 100%;
+    height: auto;
+    padding: 20px 100px;
+    background-color: #000000;
+   }
+
+   .footer-hed-text{
+      font-size: 35px;
+      color: #fff;
+      font-family: 'Allerta Stencil', sans-serif;
+   }
+
+   .footer-icon p{
+    color: var(--white);
+   }
+
+   .footer-icon i{
+      color: var(--white) !important;
+      transition: 1s !important;
+      font-size: 25px;
+      margin: 0 5px;
+   }
+   .footer-icon i:hover{
+    color: var(--Fiver) !important;
+ }
+
+ /* col-lg-8 */
+
+ .div-footer1 a{
+    display: block;
+    margin: 10px 0;
+    font-size: 17px;
+    color: var(--white);
+    transition: 0.5s;
+ }
+
+ .div-footer1 a:hover{
+   color: #00AC2C;
+}
+
+.div-footer2{
+  text-align: center !important;
+  margin-top: 50px;
+}
+.div-footer2 p{
+  color: var(--white);
+  font-size: 20px;
+}
+   
+.lest-footer p{
+    color: #666;
+}
+
+/*------------------
+   Footer-Closs
+------------------*/
